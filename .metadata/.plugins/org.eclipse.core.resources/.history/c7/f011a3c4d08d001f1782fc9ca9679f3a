@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a,b;
+		System.out.println("nhập vào a: ");
+		a = scanner.nextInt();
+		System.out.println("nhập vào b: ");
+		b = scanner.nextInt();
+		
+		System.out.println("a = b: "+ ((a == 0) || (b == 0)));
+	}
+}

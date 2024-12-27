@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a;
+		double chuVi;
+		System.out.println("nhập vào a: ");
+		a = scanner.nextInt();
+		
+		
+		
+		chuVi = 2 * (double)a * Math.PI;
+		System.out.println("chu vi là: " + chuVi);
+	}
+}
